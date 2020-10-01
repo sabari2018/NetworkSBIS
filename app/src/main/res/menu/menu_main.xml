@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.networksbis.MainActivity">
+    <item
+        android:id="@+id/rest_network"
+        android:orderInCategory="100"
+        android:title="@string/reset_network"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_object"
+        android:orderInCategory="100"
+        android:title="@string/add_object"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/add_connection"
+        android:orderInCategory="100"
+        android:title="@string/add_connection"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/modification"
+        android:orderInCategory="100"
+        android:title="@string/modification"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Network Sadou Issa</string>
+    <string name="reset_network">Reinitialise le reseau</string>
+    <string name="add_object">Mode objet</string>
+    <string name="add_connection">Mode Connexion</string>
+    <string name="modification">Modifier</string>
+</resources>
