@@ -1,3 +1,6 @@
 package com.example.networksbis
 
-data class Objet(var label:String, var posX:Int, var posY:Int, var color:Int)
+import android.graphics.Rect
+import android.graphics.RectF
+
+data class Objet(var thing: RectF, var label:String, var posX:Float, var posY:Float)

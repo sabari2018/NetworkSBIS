@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Network Sadou Issa</string>
+    <string name="reset_network">Reinitialiser le reseau</string>
+    <string name="add_object">Mode Ajout Objet</string>
+    <string name="add_connection">Mode Ajout connexion</string>
+    <string name="modification">Modifier le reseau</string>
+    <string name="label">Libelle</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="yes">OUI</string>
+    <string name="no">NON</string>
+
+    <string name="confirm_dialog_title">Confirmation</string>
+    <string name="confirm_dialog_msg">Etes-vous sur de reinitialiser votre reseau ?</string>
+    <string name="confirm_dialog_sucess_msg">Votre reseau a ete reset avec succes</string>
+
+    <string name="create_add_label_dialog">Creer un Objet</string>
+
+    <string name="msg_network_empty">Votre reseau est deja vide</string>
+</resources>

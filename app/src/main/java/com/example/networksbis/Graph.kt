@@ -1,3 +1,3 @@
 package com.example.networksbis
 
-class Graph(var objets:List<Objet>, var connexions:List<Connexion>)
+class Graph(var objets:MutableList<Objet> = mutableListOf() , var connexions:MutableList<Connexion> = mutableListOf())
