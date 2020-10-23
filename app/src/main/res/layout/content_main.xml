@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/plan"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <ImageView
+    <!--<ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/plan"
-        android:scaleType="centerInside"/>
+        android:scaleType="centerInside"/>-->
 
             <com.example.networksbis.Reseau
             android:id="@+id/reseau"
@@ -18,8 +19,5 @@
             android:layout_height="match_parent"
             tools:layout_editor_absoluteX="-40dp"
             tools:layout_editor_absoluteY="16dp"/>
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

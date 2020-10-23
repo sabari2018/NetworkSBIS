@@ -20,7 +20,6 @@ class Reseau(context: Context, attributeSet: AttributeSet):View(context,attribut
     private var touchEventY = 0f
 
     private var mode:String = ""
-    private var toUpdate:Boolean = false
 
     private var objetFrom:Objet?=null
     private var objetTo:Objet?=null
@@ -132,15 +131,11 @@ class Reseau(context: Context, attributeSet: AttributeSet):View(context,attribut
     private fun touchUp() {
         objetTo = getObject(touchEventX,touchEventY)
 
-        if(objetFrom==null || objetTo==null){
-            path.reset()
-        }else{
-            if(objetFrom!=null && objetTo!=null){
-                if(objetFrom==objetTo){
-                    path.reset()
-                }else{
-                    graph.connexions.add(Connexion(objetFrom!!, objetTo!!))
-                }
+        if(objetFrom!=null && objetTo!=null){
+            if(objetFrom==objetTo){
+                path.reset()
+            }else{
+                graph.connexions.add(Connexion(objetFrom!!, objetTo!!))
             }
         }
         path.reset()
@@ -159,14 +154,11 @@ class Reseau(context: Context, attributeSet: AttributeSet):View(context,attribut
 
     private fun touchUpdateStart() {
         currentObjet = getObject(touchEventX, touchEventY)
-        if(currentObjet!=null){
-            toUpdate=true
-        }
     }
 
     private fun touchUpdateUp() {
 
-        if(currentObjet!=null && toUpdate){
+        if(currentObjet!=null){
 
             currentObjet!!.posX = touchEventX
             currentObjet!!.posY = touchEventY
@@ -184,14 +176,15 @@ class Reseau(context: Context, attributeSet: AttributeSet):View(context,attribut
     }
 
     private fun touchUpdateMove() {
-        if(currentObjet!=null && toUpdate) {
+        if(currentObjet!=null) {
             currentObjet!!.thing.set(touchEventX, touchEventY, touchEventX + 70, touchEventY + 70)
         }
     }
 
      fun resetNetwork(){
-        graph= Graph()
-        invalidate()
+         graph.objets.clear()
+         graph.connexions.clear()
+         invalidate()
     }
 
     fun isNetworkEmpty():Boolean{

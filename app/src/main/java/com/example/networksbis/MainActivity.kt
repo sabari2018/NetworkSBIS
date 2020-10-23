@@ -17,9 +17,6 @@ class MainActivity : AppCompatActivity(), View.OnLongClickListener {
     private var isConnexionMode: Boolean = false
     private var isUpdateMode: Boolean = false
 
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
