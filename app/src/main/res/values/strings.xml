@@ -9,6 +9,9 @@
     <string name="cancel">Cancel</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="backup_network">Backup</string>
+    <string name="restore_network">Restor</string>
+    <string name="send_network_mail">Send by mail</string>
 
     <string name="confirm_dialog_title">Confirmation</string>
     <string name="confirm_dialog_msg">Are you sure to reset your network ?</string>

@@ -89,6 +89,19 @@ class MainActivity : AppCompatActivity(), View.OnLongClickListener {
                 Toast.makeText(this@MainActivity,R.string.modification, Toast.LENGTH_SHORT).show()
                 true
             }
+            R.id.backup ->{
+                Toast.makeText(this@MainActivity,R.string.backup_network, Toast.LENGTH_SHORT).show()
+                true
+            }
+            R.id.restore ->{
+                Toast.makeText(this@MainActivity,R.string.restore_network, Toast.LENGTH_SHORT).show()
+                true
+            }
+            R.id.sendByMail ->{
+                Toast.makeText(this@MainActivity,R.string.send_network_mail, Toast.LENGTH_SHORT).show()
+                true
+            }
+
             else -> super.onOptionsItemSelected(item)
         }
     }

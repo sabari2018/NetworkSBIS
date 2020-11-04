@@ -9,6 +9,9 @@
     <string name="cancel">Annuler</string>
     <string name="yes">OUI</string>
     <string name="no">NON</string>
+    <string name="backup_network">Sauvegarder</string>
+    <string name="restore_network">Restauter</string>
+    <string name="send_network_mail">Enover par mail</string>
 
     <string name="confirm_dialog_title">Confirmation</string>
     <string name="confirm_dialog_msg">Etes-vous sur de reinitialiser votre reseau ?</string>
