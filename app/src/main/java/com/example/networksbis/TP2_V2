@@ -1,0 +1,35 @@
+                     V2 - A rajouter
+		     ===============
+
+ I - Menu principal
+
+	— sauvegarder le réseau dans la mémoire interne,
+	— afficher un réseau sauvegardé dans la mémoire interne,
+	— importer d’autres plans d’appartement,
+	— envoyer le réseau par mail en tant qu’image capture d’écran
+ 
+ II - Affichage
+	- Mode portrait/paysage
+	- Afficher un plan par defaut
+	- possibilite d'importer des plans
+	- L’étiquette de la connexion doit être précisée pendant la création. L’étiquette est affichée au milieu
+	  exact de l’connexion, un peu sur le côté.
+	- Quand on pose le doigt sur le milieu/l’étiquette d’un connexion et on déplace le doigt, la courbure de l’connexion
+	  change en suivant le doigt
+
+ III -Un long–click sur un objet permet
+	— supprimer le objet,
+	— modifier les paramètres de l’objet : étiquette, couleur (on se limite aux couleurs : rouge, vert,
+	bleu, orange, cyan, magenta, noir),
+	— à la place des couleurs différentes, vous pouvez choisir des petites images d’objets (imprimantes,
+	télévision, etc.)
+
+ IV - Un long–click sur l’étiquette d’une connexion permet
+	— supprimer l’connexion,
+	— modifier l’étiquette de la connexion,
+	— modifier la couleur de la connexion,
+	— modifier l’épaisseur de la connexion
+
+ V - — (modifié) Le plan d’appartement doit être affiché en taille réelle (pour que les objets soient au bon
+	endroit suite à une rotation, sans recalculs de la position). Si l’image est trop grande, il faut pouvoir
+l	a défiler verticalement et/ou horizontalement.
