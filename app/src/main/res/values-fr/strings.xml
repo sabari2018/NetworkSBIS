@@ -12,6 +12,7 @@
     <string name="backup_network">Sauvegarder</string>
     <string name="restore_network">Restauter</string>
     <string name="send_network_mail">Enover par mail</string>
+    <string name="import_map">Importer Plan</string>
 
     <string name="confirm_dialog_title">Confirmation</string>
     <string name="confirm_dialog_msg">Etes-vous sur de reinitialiser votre reseau ?</string>

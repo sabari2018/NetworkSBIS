@@ -101,6 +101,10 @@ class MainActivity : AppCompatActivity(), View.OnLongClickListener {
                 Toast.makeText(this@MainActivity,R.string.send_network_mail, Toast.LENGTH_SHORT).show()
                 true
             }
+            R.id.import_map ->{
+                Toast.makeText(this@MainActivity,R.string.import_map, Toast.LENGTH_SHORT).show()
+                true
+            }
 
             else -> super.onOptionsItemSelected(item)
         }
