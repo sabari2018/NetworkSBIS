@@ -12,10 +12,23 @@
         android:orderInCategory="100"
         android:title="@string/add_object"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/edit_object"
+        android:orderInCategory="100"
+        android:title="@string/edit_object"
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/add_connection"
         android:orderInCategory="100"
         android:title="@string/add_connection"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/edit_connection"
+        android:orderInCategory="100"
+        android:title="@string/edit_connetion"
         app:showAsAction="never" />
 
     <item
@@ -46,6 +59,5 @@
         android:orderInCategory="100"
         android:title="@string/import_map"
         app:showAsAction="never" />
-
 
 </menu>

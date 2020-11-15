@@ -44,4 +44,12 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
+
+    // Gson
+    implementation "com.google.code.gson:gson:2.8.5"
+
+    // https://mvnrepository.com/artifact/javax.mail/mail
+    //implementation group: 'javax.mail', name: 'mail', version: '1.4'
+    implementation 'com.sun.mail:android-mail:1.6.0'
+    implementation 'com.sun.mail:android-activation:1.6.0'
 }

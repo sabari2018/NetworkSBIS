@@ -5,6 +5,7 @@
     <string name="add_connection">Mode Ajout connexion</string>
     <string name="modification">Modifier le reseau</string>
     <string name="label">Libelle</string>
+    <string name="label_email">Email</string>
     <string name="ok">OK</string>
     <string name="cancel">Annuler</string>
     <string name="yes">OUI</string>
@@ -13,12 +14,19 @@
     <string name="restore_network">Restauter</string>
     <string name="send_network_mail">Enover par mail</string>
     <string name="import_map">Importer Plan</string>
+    <string name="email_subject">Mon Resau</string>
+    <string name="email_msg">Une image du reseau</string>
+    <string name="email_msg_title">Envoi du email…</string>
+    <string name="edit_object">Editer Objet</string>
+    <string name="edit_connetion">Editer Connexion</string>
+    <string name="change_color">Changer la couleur</string>
 
     <string name="confirm_dialog_title">Confirmation</string>
     <string name="confirm_dialog_msg">Etes-vous sur de reinitialiser votre reseau ?</string>
     <string name="confirm_dialog_sucess_msg">Votre reseau a ete reset avec succes</string>
 
     <string name="create_add_label_dialog">Creer un Objet</string>
+    <string name="create_email_dialog">Entrer email</string>
 
     <string name="msg_network_empty">Votre reseau est deja vide</string>
 </resources>
